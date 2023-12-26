@@ -1,0 +1,14 @@
+base_url: ""
+port: "8080"
+routes:
+  #example routes
+  - path: "/hello"
+    method: "GET"
+    response:
+      code: 200
+      body: '{"message": "Hello, World!"}'
+  - path: "/goodbye"
+    method: "POST"
+    response:
+      code: 200
+      body: '{"message": "Goodbye, World!"}'
